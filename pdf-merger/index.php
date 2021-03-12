@@ -15,8 +15,7 @@
     <div class="container">
         <form action="" class="form-group" method="POST">
             <h1 class="text-center mb-4">PDF Merger</h1>
-    
-            <?php $output_files = glob(OUTPUT_PATH . '*.pdf'); ?>
+
             <?php $files = array_merge($files, $output_files); ?>
 
             <ul class="list-group">

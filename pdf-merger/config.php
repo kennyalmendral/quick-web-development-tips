@@ -8,5 +8,6 @@ define('OUTPUT_PATH', HOME_PATH . 'output/');
 define('OUTPUT_URL', HOME_URL . 'output/');
 
 $files = glob(FILES_PATH . '*.pdf');
+$output_files = glob(OUTPUT_PATH . '*.pdf');
 
 ?>
